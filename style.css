@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    color: white;
+}
+
+.container{
+    background-color: black;
+    width: 40%;
+    height: 100vh;
+    margin: auto;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3{
+    margin-left: 20px;
+    font-family: "poppins";
+}
+
+h3 i{
+    font-size: 0.75em;
+    margin-left: 4px;
+}
+
+h3 i span{
+    color: red;
+    font-size: 2em;
+    border-radius: 50px;
+    margin-left: 4px;
+}
+
+.top-right{
+    margin-right: 30px;
+}
+
+.top-right i{
+    padding-right: 15px;
+    font-size: 1.5em;
+}
+
+.top-right i:nth-child(1){
+    position: relative;
+}
+
+.top-right i:nth-child(1)::after{
+    content: "9+";
+    background-color: red;
+    position: absolute;
+    font-size: 0.4em;
+    border-radius: 30%;
+    padding: 1px 2px;
+    left:25%;
+    top: -20%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 30px;
+    font-family: "poppins";
+}
+
+.middle img{
+    border-radius: 50%;
+    position: relative;
+    border: 3px solid rgba(248, 65, 41, 0.93);
+}
+
+.img-container{
+    position: relative;
+    border-radius: 50%;
+    width: 70p;
+}
+
+.img-container::before{
+    content: "Note...";
+    position: absolute;
+    background-color: #303030;
+    top: -25%;
+    left: 20%;
+    z-index: 1;
+    padding: 9px 5px;
+    border-radius: 30%;
+    font-size: 0.65em;
+    text-align: center;
+    font-family:"poppins";
+    color: rgb(175, 173, 173);
+    font-weight: 500;
+}
+
+.img-container::after{
+    content: "+";
+    background: white;
+    color: black;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 0.65em;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 11%;
+    right: 3%;
+    font-weight: bold;
+}
+
+.posts{
+    font-family: "poppins";
+}
+
+.posts h6{
+    margin-top: -17px;
+    font-weight:300;
+}
+
+.posts h4{
+    text-align: center;
+}
+
+.bio h4{
+    margin-top:-12px;
+    margin-left: 20px;
+    font-family: "poppins";
+    margin-bottom: 1px;
+}
+
+.bio h4 span{
+    color: #7f7d7d;
+}
+
+.bio button{
+    background: #303030;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 30px;
+    font-size: 0.6em;
+    margin-left:20px;
+}
+
+.bio h5{
+    margin-top: 0;
+    margin-left: 20px;
+    font-family:"poppins";
+    font-size: 0.7em;
+    color: rgb(154, 221, 247);
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.bio p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-family: "poppins";
+    font-size: 0.75em;
+
+}
+
+.bio p:nth-child(8){
+    color:rgb(154, 221, 247) ;
+}
+
+.bio p i{
+    color: rgb(154, 221, 247);
+}
+
+.dashboard{
+    background-color: #303030;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.dashboard h2{
+    font-family: "poppins";
+    font-size: 0.8em;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.dashboard small{
+    font-family: "poppins";
+    font-size: 0.6em;
+    color:#959494 ;
+    margin-left: 5px;
+}
+
+.buttons{
+    margin-left: 20px;
+}
+
+.buttons button{
+    background-color: transparent;
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px 20px;
+    margin-top: 4px;
+    border-radius: 7px;
+    width: 150px;
+    margin-right: 5px;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+.highlights{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.highlights img{
+    border-radius: 50%;
+    width: 70px;
+    border: 2px solid rgb(156, 153, 153);
+}
+
+
+.highlights img:nth-child(2){
+    margin-left: 20px;
+}
+
+.highlights div{
+    margin-left: 20px;
+    border: 1px solid white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.add::after{
+    content: "+";
+    font-family: "poppins";
+    font-size: 2em;
+    font-weight: 100;
+    position: absolute;
+    left: 35%;
+    top: 14%;
+}
+    
+.home{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+.home i{
+    color: #7f7d7d;
+}
+
+.home i:nth-child(1){
+    color: white;
+}
